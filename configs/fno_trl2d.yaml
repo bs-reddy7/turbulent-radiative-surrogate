@@ -1,0 +1,24 @@
+# FNO config for 2D turbulent radiative layer surrogate
+
+model:
+  modes: 16          # number of Fourier modes to keep per dimension
+  width: 64          # channel width in FNO layers
+  n_layers: 4        # number of FNO blocks
+
+data:
+  path: data/trl2d.h5
+  resolution: 64
+  train_samples: 1000
+  val_samples: 200
+  test_samples: 200
+
+training:
+  epochs: 100
+  batch_size: 16
+  lr: 1.0e-3
+  weight_decay: 1.0e-4
+  scheduler: cosine
+
+logging:
+  log_interval: 10
+  checkpoint_dir: checkpoints/

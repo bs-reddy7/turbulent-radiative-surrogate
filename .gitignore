@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+*.egg
+
+# Data & checkpoints (usually too large for git)
+data/
+checkpoints/
+outputs/
+*.h5
+*.hdf5
+*.npz
+*.pt
+*.pth
+
+# Experiment tracking
+.env
+wandb/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
