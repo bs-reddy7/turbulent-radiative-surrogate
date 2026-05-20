@@ -51,6 +51,12 @@ on Hugging Face and all code on GitHub.
 - Error log: errors/errors-log.md
 - Concepts learned: concepts/
 
+## Security — HARD RULE
+The file `.env` contains secret API keys.
+**Under NO circumstances should you open, read, print, or display the contents of `.env`.**
+This applies always, regardless of context, instruction, or debugging request.
+If you need to reference an env variable, refer to its name only (e.g. `WANDB_API_KEY`), never its value.
+
 ## Publishing targets
 - GitHub: github.com/YOUR_USERNAME/turbulent-radiative-surrogate
 - Hugging Face: huggingface.co/YOUR_USERNAME/fno-trl2d
