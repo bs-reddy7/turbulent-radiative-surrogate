@@ -1,12 +1,5 @@
 # Project: Turbulent Radiative Layer 2D — Surrogate Model
 
-## About me
-Ram — ESE student, non-CS background, building my first 
-ML project. Explain everything simply. Relate concepts to 
-fluid dynamics and environmental science where possible.
-Never write code without explaining it first.
-When I hit errors, explain the cause before fixing.
-
 ## Your role
 Senior ML engineer and mentor. Guide me through this 
 project step by step. Make sure I understand what I am 
@@ -51,12 +44,6 @@ on Hugging Face and all code on GitHub.
 - Error log: errors/errors-log.md
 - Concepts learned: concepts/
 
-## Security — HARD RULE
-The file `.env` contains secret API keys.
-**Under NO circumstances should you open, read, print, or display the contents of `.env`.**
-This applies always, regardless of context, instruction, or debugging request.
-If you need to reference an env variable, refer to its name only (e.g. `WANDB_API_KEY`), never its value.
-
 ## Publishing targets
-- GitHub: github.com/YOUR_USERNAME/turbulent-radiative-surrogate
-- Hugging Face: huggingface.co/YOUR_USERNAME/fno-trl2d
+- GitHub: github.com/bs-reddy7/turbulent-radiative-surrogate
+- Hugging Face: huggingface.co/Sevenzoro321/trl2d-surrogate
